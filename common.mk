@@ -377,13 +377,6 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
-# OnePlus
-#PRODUCT_PACKAGES += \
-#    oneplus-fwk
-#
-#PRODUCT_BOOT_JARS += \
-#    oneplus-fwk
-
 # OnePlus Apps
 PRODUCT_PACKAGES += \
     OnePlusCameraOverlay \
@@ -440,8 +433,8 @@ PRODUCT_PACKAGES += \
     qti_telephony_utils.xml \
     telephony-ext
 
-#PRODUCT_BOOT_JARS += \
-#    telephony-ext
+PRODUCT_BOOT_JARS += \
+    telephony-ext
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-qti.xml
